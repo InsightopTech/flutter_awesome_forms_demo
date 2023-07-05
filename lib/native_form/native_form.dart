@@ -5,8 +5,8 @@ import 'package:get/get.dart';
 /// flutter original form demo page
 ///
 /// https://flutter.dev/docs/cookbook/forms
-class FormDemo extends StatelessWidget {
-  const FormDemo({super.key});
+class NativeFormDemo extends StatelessWidget {
+  const NativeFormDemo({super.key});
 
   @override
   Widget build(BuildContext context) {

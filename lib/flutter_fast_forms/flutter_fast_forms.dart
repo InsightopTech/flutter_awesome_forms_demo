@@ -10,20 +10,20 @@ import 'package:get/get.dart';
 /// flutter_fast_forms demo page
 ///
 /// https://pub.dev/packages/flutter_fast_forms
-class FastFormsDemo extends StatefulWidget {
-  const FastFormsDemo({super.key});
+class FlutterFastFormsDemo extends StatefulWidget {
+  const FlutterFastFormsDemo({super.key});
 
   @override
-  State<FastFormsDemo> createState() => _FastFormsDemoState();
+  State<FlutterFastFormsDemo> createState() => _FlutterFastFormsDemoState();
 }
 
-class _FastFormsDemoState extends State<FastFormsDemo> {
+class _FlutterFastFormsDemoState extends State<FlutterFastFormsDemo> {
   final _formKey = GlobalKey<FormState>();
   @override
   Widget build(BuildContext context) {
     return PlatformScaffold(
       appBar: PlatformAppBar(
-        title: const Text('flutter_fast_forms'),
+        title: PlatformText('flutter_fast_forms'),
       ),
       body: SafeArea(
         child: SingleChildScrollView(
@@ -57,7 +57,7 @@ class _FastFormsDemoState extends State<FastFormsDemo> {
                 },
               ),
               ElevatedButton(
-                child: const Text('Reset'),
+                child: PlatformText('Reset'),
                 onPressed: () => _formKey.currentState?.reset(),
               ),
             ],

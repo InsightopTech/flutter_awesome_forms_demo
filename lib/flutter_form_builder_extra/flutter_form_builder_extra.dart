@@ -8,14 +8,16 @@ import 'package:get/get.dart';
 /// flutter_form_builder_extra demo page
 ///
 /// https://pub.dev/packages/form_builder_extra_fields
-class FormBuilderExtraDemo extends StatefulWidget {
-  const FormBuilderExtraDemo({super.key});
+class FlutterFormBuilderExtraDemo extends StatefulWidget {
+  const FlutterFormBuilderExtraDemo({super.key});
 
   @override
-  State<FormBuilderExtraDemo> createState() => _FormBuilderExtraDemoState();
+  State<FlutterFormBuilderExtraDemo> createState() =>
+      _FlutterFormBuilderExtraDemoState();
 }
 
-class _FormBuilderExtraDemoState extends State<FormBuilderExtraDemo> {
+class _FlutterFormBuilderExtraDemoState
+    extends State<FlutterFormBuilderExtraDemo> {
   final local_list = [
     'Paris',
     'Lyon',

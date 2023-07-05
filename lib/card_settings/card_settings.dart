@@ -17,8 +17,7 @@ class _CardSettingsDemoState extends State<CardSettingsDemo> {
   Widget build(BuildContext context) {
     return PlatformScaffold(
       appBar: PlatformAppBar(
-        //平台风格的AppBar
-        title: Text('card_settings'),
+        title: PlatformText('card_settings'),
       ),
       body: CardSettings(
         children: [
