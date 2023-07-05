@@ -2,15 +2,28 @@
 
 一个 flutter 平台上各种表单插件 demo 的集合
 
-## Getting Started
+- flutterformbuilderecosystem.com:
 
-This project is a starting point for a Flutter application.
+  1. [flutter_form_builder](https://pub.dev/packages/flutter_form_builder)
+  2. [form_builder_extra_fields](https://pub.dev/packages/form_builder_extra_fields)
+  3. [form_builder_phone_field](https://pub.dev/packages/form_builder_phone_field)
+  4. [phone_number](https://pub.dev/packages/phone_number)
+  5. [form_builder_cupertino_fields](https://pub.dev/packages/form_builder_cupertino_fields)
+  6. [form_builder_validators](https://pub.dev/packages/form_builder_validators)
+  7. [flutter_form_builder_image_picker](https://pub.dev/packages/flutter_form_builder_image_picker)
 
-A few resources to get you started if this is your first Flutter project:
+- udos86.de:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+  - [flutter_fast_forms](https://pub.dev/packages/flutter_fast_forms)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- card_settings
+
+  - [card_settings](https://pub.dev/packages/card_settings)
+
+- flutter_form_bloc
+
+  - [flutter_form_bloc](https://pub.dev/packages/flutter_form_bloc)
+
+- reactive_forms
+
+  - [reactive_forms](https://pub.dev/packages/reactive_forms)

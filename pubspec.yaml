@@ -46,11 +46,11 @@ dependencies:
   form_builder_validators: ^9.0.0 # 表单验证
   form_builder_image_picker: ^4.0.0 # 图片选择
 
-  # 表单
-  card_settings: ^3.5.0
-
   # 表单 udos86.de
   flutter_fast_forms: ^11.1.0
+
+  # 表单
+  card_settings: ^3.5.0
 
   # 表单
   reactive_forms: ^16.0.0
