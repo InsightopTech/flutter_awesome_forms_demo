@@ -8,6 +8,7 @@ import 'card_settings.dart'; //基于card_settings的表单
 import 'fast_forms/fast_forms.dart'; //基于flutter_fast_forms的表单
 import 'form_builder.dart'; //基于flutter_form_builder的表单
 import 'form_builder_extra.dart'; //基于flutter_form_builder的表单
+import 'reactive_forms/reactive_forms.dart'; //基于reactive_forms的表单
 
 void main() {
   // WidgetsFlutterBinding.ensureInitialized();
@@ -44,40 +45,34 @@ class _MyHomePageState extends State<MyHomePage> {
     // Get.snackbar('提示', '加载中', duration: const Duration(seconds: 1));
     return PlatformScaffold(
       appBar: PlatformAppBar(
-        title: const Text('Form Demo'),
+        title: PlatformText('Form Demo'),
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             PlatformElevatedButton(
-                child: const Text('原生'),
-                onPressed: () {
-                  Get.to(const FormDemo());
-                }),
+                child: PlatformText('原生'),
+                onPressed: () => Get.to(const FormDemo())),
             PlatformElevatedButton(
-              child: const Text('card_settings'),
-              onPressed: () {
-                Get.to(const CardSettingsDemo());
-              },
+              child: PlatformText('card_settings'),
+              onPressed: () => Get.to(const CardSettingsDemo()),
             ),
             PlatformElevatedButton(
-              child: const Text('flutter_fast_forms'),
-              onPressed: () {
-                Get.to(const FastFormsDemo());
-              },
+              child: PlatformText('reactive_forms'),
+              onPressed: () => Get.to(const ReactiveFormsDemo()),
             ),
             PlatformElevatedButton(
-              child: const Text('flutter_form_builder'),
-              onPressed: () {
-                Get.to(const FormBuilderDemo());
-              },
+              child: PlatformText('flutter_fast_forms'),
+              onPressed: () => Get.to(const FastFormsDemo()),
             ),
             PlatformElevatedButton(
-              child: const Text('flutter_form_builder_extra'),
-              onPressed: () {
-                Get.to(const FormBuilderExtraDemo());
-              },
+              child: PlatformText('flutter_form_builder'),
+              onPressed: () => Get.to(const FormBuilderDemo()),
+            ),
+            PlatformElevatedButton(
+              child: PlatformText('flutter_form_builder_extra'),
+              onPressed: () => Get.to(const FormBuilderExtraDemo()),
             ),
           ],
         ),
